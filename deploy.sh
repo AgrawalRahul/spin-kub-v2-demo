@@ -1,3 +1,5 @@
+git checkout -b master origin/master
+git status
 touch terraform.tfstate
 git log -n 5
 git add terraform.tfstate
