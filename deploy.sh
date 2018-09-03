@@ -1,4 +1,4 @@
-git checkout -b master origin/master
+git checkout master
 git status
 touch terraform.tfstate
 git log -n 5
