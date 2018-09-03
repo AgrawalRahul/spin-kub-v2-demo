@@ -3,6 +3,10 @@ language: go
 go:
   - 1.9
 
+before_script:
+  - git remote set-url origin git@github.com:AgrawalRahul/spin-kub-v2-demo.git
+  - git config --get remote.origin.url
+
 build:
   ci:
     - echo $BASE_BRANCH
